@@ -1,0 +1,62 @@
+.responsive img {
+    max-width: 100%;
+    /*width:100%;*/
+    height: auto;
+}
+
+.isi {
+    padding-top: 80px;
+}
+
+.maps {
+    position: relative;
+    padding-bottom: 75%;
+    overflow: hidden;
+}
+
+.maps iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    padding-top: 80px;
+}
+
+.page-footer {
+    background: black;
+}
+
+.footer a {
+    color: white;
+}
+
+.fb {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+}
+
+.jam-digital-malasngoding {
+    overflow: hidden;
+    width: 330px;
+    margin: 20px auto;
+}
+
+.kotak {
+    float: left;
+    width: 63px;
+    height: 60px;
+}
+
+.jam-digital-malasngoding p {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.tgl {
+    text-align: center;
+}

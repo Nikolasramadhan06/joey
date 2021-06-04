@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amunisi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="home" class="scrollspy">
+    <!--Navbar-->
+    <div class="navbar-fixed">
+        <nav class="place c2" style="background-color: black ;">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#home" class="brand-logo" style="color: black;"><img src="../assets/joey.jpg" alt=""></a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="trophy.html">Trophy</a></li>
+                        <li><a href="ternak.html">Ternak</a></li>
+                        <li><a href="trotolan.html">Trotolan</a></li>
+                        <li><a href="index.html">Kembali</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Sidenav-->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#isi">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/transition.js"></script>
+    <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+            height: 500,
+            transition: 600,
+            interval: 2000
+        });
+    </script>
+</body>
+
+</html>
